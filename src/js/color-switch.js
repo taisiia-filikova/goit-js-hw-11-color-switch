@@ -1,12 +1,12 @@
-// import colors from './array-of-colors.js';
-const colors = [
-  '#FFFFFF',
-  '#2196F3',
-  '#4CAF50',
-  '#FF9800',
-  '#009688',
-  '#795548',
-];
+import {colors} from './array-of-colors.js';
+// const colors = [
+//   '#FFFFFF',
+//   '#2196F3',
+//   '#4CAF50',
+//   '#FF9800',
+//   '#009688',
+//   '#795548',
+// ];
 
 let timeout = null;
 let activity = false;
