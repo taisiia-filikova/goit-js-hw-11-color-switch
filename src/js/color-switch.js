@@ -32,11 +32,16 @@ function start() {
   }
   timeout = setInterval(bgcChanger, 1000);
   activity = true;
+  // правка ментора, чтоб кнопка не была активна после ее нажатия
+  refs.startBtn.disabled = true;
+  refs.stopBtn.disabled = false;
 };
 
 function stop() {
   clearTimeout(timeout);
   activity = false;
+  refs.startBtn.disabled = false;
+  refs.stopBtn.disabled = true;
 };
 
 
